@@ -20,8 +20,8 @@ setting.py -> items.py -> mtime.py -> pipelines.py
 
 setting.py
 1. Add below config to debug program, usual to see HTTPError 400(bad request), 403(IP mask) fail
-LOG_LEVEL= 'DEBUG'
-LOG_FILE ='log.txt'
+- LOG_LEVEL= 'DEBUG'
+- LOG_FILE ='log.txt'
 
 mtime.py
 1. Using response.xpath(....).re(pattern) to parse image URL
