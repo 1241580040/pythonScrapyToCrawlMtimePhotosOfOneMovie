@@ -36,7 +36,7 @@ pipelines.py:
 
 exec process:
 
-cd ../E0819_mtime_test/S0819Mtime_tiantang
-scrapy crawl mtime
+1. cd ../E0819_mtime_test/S0819Mtime_tiantang
+2. scrapy crawl mtime
 
 ===================================================================
