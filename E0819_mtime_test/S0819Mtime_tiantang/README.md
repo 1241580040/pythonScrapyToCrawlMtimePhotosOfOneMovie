@@ -1,4 +1,4 @@
-This README.md for Eclipse project to delevop scrapy
+This README.md for command line to develop scrapy
 
 ===================================================================
 

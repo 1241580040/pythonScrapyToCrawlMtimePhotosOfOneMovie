@@ -1,0 +1,1168 @@
+2017-08-28 16:29:06 [scrapy] INFO: Scrapy 1.0.3 started (bot: S0819Mtime_tiantang)
+2017-08-28 16:29:06 [scrapy] INFO: Optional features available: ssl, http11
+2017-08-28 16:29:06 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'S0819Mtime_tiantang.spiders', 'SPIDER_MODULES': ['S0819Mtime_tiantang.spiders'], 'LOG_FILE': 'log.txt', 'BOT_NAME': 'S0819Mtime_tiantang'}
+2017-08-28 16:29:06 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-08-28 16:29:07 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-08-28 16:29:07 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-08-28 16:29:07 [scrapy] INFO: Enabled item pipelines: S0819MtimeTiantangPipeline
+2017-08-28 16:29:07 [scrapy] INFO: Spider opened
+2017-08-28 16:29:07 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-28 16:29:07 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6025
+2017-08-28 16:29:08 [scrapy] DEBUG: Crawled (200) <GET http://movie.mtime.com/79055/posters_and_images/posters/hot.html> (referer: None)
+2017-08-28 16:29:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:10 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042610.59909056_1000X1000.jpg HTTP/1.1" 200 235809
+2017-08-28 16:29:10 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:10 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042556.29233713_1000X1000.jpg HTTP/1.1" 200 76706
+2017-08-28 16:29:11 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:11 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042550.42948237_1000X1000.jpg HTTP/1.1" 200 180457
+2017-08-28 16:29:11 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:11 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042613.46753602_1000X1000.jpg HTTP/1.1" 200 287030
+2017-08-28 16:29:12 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:12 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042556.81170151_1000X1000.jpg HTTP/1.1" 200 115647
+2017-08-28 16:29:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042556.19641751_1000X1000.jpg HTTP/1.1" 200 135726
+2017-08-28 16:29:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042554.88127666_1000X1000.jpg HTTP/1.1" 200 167576
+2017-08-28 16:29:14 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:14 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042548.53916725_1000X1000.jpg HTTP/1.1" 200 157567
+2017-08-28 16:29:14 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:14 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042609.36242501_1000X1000.jpg HTTP/1.1" 200 161221
+2017-08-28 16:29:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:15 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042614.33061030_1000X1000.jpg HTTP/1.1" 200 62161
+2017-08-28 16:29:16 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:16 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:16 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042556.31259112_1000X1000.jpg HTTP/1.1" 200 122811
+2017-08-28 16:29:16 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:16 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:16 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042608.23560785_1000X1000.jpg HTTP/1.1" 200 115726
+2017-08-28 16:29:17 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:17 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042557.36760320_1000X1000.jpg HTTP/1.1" 200 261796
+2017-08-28 16:29:17 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:17 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042607.56709042_1000X1000.jpg HTTP/1.1" 200 227964
+2017-08-28 16:29:18 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:18 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:18 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042613.31680862_1000X1000.jpg HTTP/1.1" 200 124325
+2017-08-28 16:29:19 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:19 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:19 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042559.87983877_1000X1000.jpg HTTP/1.1" 200 142555
+2017-08-28 16:29:19 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:19 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:19 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042601.35056269_1000X1000.jpg HTTP/1.1" 200 185803
+2017-08-28 16:29:20 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:20 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:20 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042605.57807538_1000X1000.jpg HTTP/1.1" 200 305608
+2017-08-28 16:29:20 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:20 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:21 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042611.54668570_1000X1000.jpg HTTP/1.1" 200 131834
+2017-08-28 16:29:21 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:21 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042603.70680653_1000X1000.jpg HTTP/1.1" 200 200991
+2017-08-28 16:29:22 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:22 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:22 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042620.75012315_1000X1000.jpg HTTP/1.1" 200 116576
+2017-08-28 16:29:22 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:22 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:22 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042615.81917680_1000X1000.jpg HTTP/1.1" 200 183438
+2017-08-28 16:29:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:23 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042617.82280192_1000X1000.jpg HTTP/1.1" 200 147324
+2017-08-28 16:29:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:23 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042611.29537228_1000X1000.jpg HTTP/1.1" 200 182819
+2017-08-28 16:29:24 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:24 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042621.24925087_1000X1000.jpg HTTP/1.1" 200 134261
+2017-08-28 16:29:25 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:25 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042625.89619203_1000X1000.jpg HTTP/1.1" 200 134125
+2017-08-28 16:29:25 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:25 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042616.67229191_1000X1000.jpg HTTP/1.1" 200 74390
+2017-08-28 16:29:26 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:26 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042631.59098321_1000X1000.jpg HTTP/1.1" 200 369110
+2017-08-28 16:29:27 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:27 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:27 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042629.95962342_1000X1000.jpg HTTP/1.1" 200 186898
+2017-08-28 16:29:27 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:27 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:27 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042622.87173576_1000X1000.jpg HTTP/1.1" 200 166857
+2017-08-28 16:29:28 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042618.67559860_1000X1000.jpg HTTP/1.1" 200 202222
+2017-08-28 16:29:28 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042627.70825964_1000X1000.jpg HTTP/1.1" 200 202546
+2017-08-28 16:29:29 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:29 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:29 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042619.57722469_1000X1000.jpg HTTP/1.1" 200 153700
+2017-08-28 16:29:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:30 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042623.82302258_1000X1000.jpg HTTP/1.1" 200 111091
+2017-08-28 16:29:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:30 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042646.26606171_1000X1000.jpg HTTP/1.1" 200 162277
+2017-08-28 16:29:31 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:31 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042624.27747298_1000X1000.jpg HTTP/1.1" 200 123845
+2017-08-28 16:29:31 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:32 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042633.71323099_1000X1000.jpg HTTP/1.1" 200 192045
+2017-08-28 16:29:33 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:33 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042626.70074700_1000X1000.jpg HTTP/1.1" 200 137651
+2017-08-28 16:29:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:34 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042634.48216602_1000X1000.jpg HTTP/1.1" 200 141381
+2017-08-28 16:29:35 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:35 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042645.82217491_1000X1000.jpg HTTP/1.1" 200 190824
+2017-08-28 16:29:35 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:35 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042625.68638806_1000X1000.jpg HTTP/1.1" 200 118973
+2017-08-28 16:29:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:36 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042633.60606267_1000X1000.jpg HTTP/1.1" 200 85661
+2017-08-28 16:29:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:36 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042635.11084096_1000X1000.jpg HTTP/1.1" 200 109364
+2017-08-28 16:29:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:37 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042637.66402768_1000X1000.jpg HTTP/1.1" 200 172745
+2017-08-28 16:29:38 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:38 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042640.58305691_1000X1000.jpg HTTP/1.1" 200 144087
+2017-08-28 16:29:38 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:38 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042636.75350725_1000X1000.jpg HTTP/1.1" 200 171755
+2017-08-28 16:29:39 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:39 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:39 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042641.24874758_1000X1000.jpg HTTP/1.1" 200 152663
+2017-08-28 16:29:39 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:39 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:39 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042642.80625322_1000X1000.jpg HTTP/1.1" 200 78542
+2017-08-28 16:29:40 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:40 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042644.67488604_1000X1000.jpg HTTP/1.1" 200 85514
+2017-08-28 16:29:41 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:41 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:41 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042643.44413115_1000X1000.jpg HTTP/1.1" 200 87813
+2017-08-28 16:29:41 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:41 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:41 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042638.10291180_1000X1000.jpg HTTP/1.1" 200 95370
+2017-08-28 16:29:42 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:42 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042639.88867762_1000X1000.jpg HTTP/1.1" 200 93875
+2017-08-28 16:29:42 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:42 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042639.66757119_1000X1000.jpg HTTP/1.1" 200 87893
+2017-08-28 16:29:43 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:43 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:43 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042525.26590110_1000X1000.jpg HTTP/1.1" 200 162040
+2017-08-28 16:29:44 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:29:45 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160427.33389037_1000X1000.jpg HTTP/1.1" 200 232835
+2017-08-28 16:29:46 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:29:46 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160453.58798399_1000X1000.jpg HTTP/1.1" 200 371023
+2017-08-28 16:29:49 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:29:49 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160743.83690822_1000X1000.jpg HTTP/1.1" 200 325894
+2017-08-28 16:29:52 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:52 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042454.60409158_1000X1000.jpg HTTP/1.1" 200 255955
+2017-08-28 16:29:52 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:52 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042455.18558100_1000X1000.jpg HTTP/1.1" 200 90923
+2017-08-28 16:29:53 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:53 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042455.77858377_1000X1000.jpg HTTP/1.1" 200 113110
+2017-08-28 16:29:53 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:53 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042456.50965899_1000X1000.jpg HTTP/1.1" 200 372282
+2017-08-28 16:29:54 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:54 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042453.76141693_1000X1000.jpg HTTP/1.1" 200 54999
+2017-08-28 16:29:55 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:55 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042522.49697856_1000X1000.jpg HTTP/1.1" 200 340053
+2017-08-28 16:29:56 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:56 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042453.93492786_1000X1000.jpg HTTP/1.1" 200 165176
+2017-08-28 16:29:57 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:57 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042456.50768907_1000X1000.jpg HTTP/1.1" 200 319507
+2017-08-28 16:29:59 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:29:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:29:59 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042530.29980369_1000X1000.jpg HTTP/1.1" 200 407889
+2017-08-28 16:30:00 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:00 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:00 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042455.96680645_1000X1000.jpg HTTP/1.1" 200 98660
+2017-08-28 16:30:01 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:01 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:01 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042457.28139269_1000X1000.jpg HTTP/1.1" 200 392149
+2017-08-28 16:30:03 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:03 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042455.77452693_1000X1000.jpg HTTP/1.1" 200 107294
+2017-08-28 16:30:04 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:04 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:04 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042504.97299519_1000X1000.jpg HTTP/1.1" 200 154238
+2017-08-28 16:30:06 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:06 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042526.42196917_1000X1000.jpg HTTP/1.1" 200 271730
+2017-08-28 16:30:08 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:08 [scrapy] INFO: Crawled 1 pages (at 1 pages/min), scraped 71 items (at 71 items/min)
+2017-08-28 16:30:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:08 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042523.38212704_1000X1000.jpg HTTP/1.1" 200 298003
+2017-08-28 16:30:10 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042520.43486717_1000X1000.jpg HTTP/1.1" 200 338583
+2017-08-28 16:30:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:16 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042456.70627339_1000X1000.jpg HTTP/1.1" 200 221850
+2017-08-28 16:30:17 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:17 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042455.21334273_1000X1000.jpg HTTP/1.1" 200 108200
+2017-08-28 16:30:18 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:18 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:18 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042455.96447158_1000X1000.jpg HTTP/1.1" 200 102391
+2017-08-28 16:30:20 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:20 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:20 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042517.33564428_1000X1000.jpg HTTP/1.1" 200 295369
+2017-08-28 16:30:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:23 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042459.12303966_1000X1000.jpg HTTP/1.1" 200 392406
+2017-08-28 16:30:24 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:24 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042516.73745206_1000X1000.jpg HTTP/1.1" 200 386850
+2017-08-28 16:30:26 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:26 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042458.32434080_1000X1000.jpg HTTP/1.1" 200 341571
+2017-08-28 16:30:28 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042507.82719137_1000X1000.jpg HTTP/1.1" 200 282158
+2017-08-28 16:30:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:30 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042500.69516482_1000X1000.jpg HTTP/1.1" 200 225194
+2017-08-28 16:30:31 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:31 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042519.66828915_1000X1000.jpg HTTP/1.1" 200 295316
+2017-08-28 16:30:32 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:32 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:32 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042524.87324266_1000X1000.jpg HTTP/1.1" 200 387882
+2017-08-28 16:30:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:36 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042459.35757906_1000X1000.jpg HTTP/1.1" 200 226214
+2017-08-28 16:30:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:37 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042525.43873591_1000X1000.jpg HTTP/1.1" 200 331673
+2017-08-28 16:30:39 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:39 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:39 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042521.47359608_1000X1000.jpg HTTP/1.1" 200 115099
+2017-08-28 16:30:40 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:30:40 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160354.16485635_1000X1000.jpg HTTP/1.1" 200 339220
+2017-08-28 16:30:43 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:43 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:43 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042501.53335272_1000X1000.jpg HTTP/1.1" 200 230535
+2017-08-28 16:30:43 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:43 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:43 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042456.56816205_1000X1000.jpg HTTP/1.1" 200 59382
+2017-08-28 16:30:46 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:46 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042502.21663384_1000X1000.jpg HTTP/1.1" 200 176191
+2017-08-28 16:30:49 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:49 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042526.39222160_1000X1000.jpg HTTP/1.1" 200 95932
+2017-08-28 16:30:50 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:30:50 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042514.44288709_1000X1000.jpg HTTP/1.1" 200 129542
+2017-08-28 16:30:54 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:30:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:30:57 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160357.80420626_1000X1000.jpg HTTP/1.1" 200 364223
+2017-08-28 16:31:05 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:05 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:06 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160508.12500778_1000X1000.jpg HTTP/1.1" 200 330998
+2017-08-28 16:31:12 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:12 [scrapy] INFO: Crawled 1 pages (at 0 pages/min), scraped 95 items (at 24 items/min)
+2017-08-28 16:31:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:12 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042510.59768933_1000X1000.jpg HTTP/1.1" 200 447115
+2017-08-28 16:31:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042508.92118037_1000X1000.jpg HTTP/1.1" 200 177697
+2017-08-28 16:31:14 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:14 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042526.84297984_1000X1000.jpg HTTP/1.1" 200 237608
+2017-08-28 16:31:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:15 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042502.74551037_1000X1000.jpg HTTP/1.1" 200 166038
+2017-08-28 16:31:17 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:17 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160344.29439798_1000X1000.jpg HTTP/1.1" 200 406384
+2017-08-28 16:31:18 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:18 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:18 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160430.82521146_1000X1000.jpg HTTP/1.1" 200 254106
+2017-08-28 16:31:21 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:21 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160350.28092449_1000X1000.jpg HTTP/1.1" 200 128520
+2017-08-28 16:31:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:24 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042525.44370069_1000X1000.jpg HTTP/1.1" 200 237608
+2017-08-28 16:31:25 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:25 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042524.46731561_1000X1000.jpg HTTP/1.1" 200 169636
+2017-08-28 16:31:26 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:26 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042524.99619485_1000X1000.jpg HTTP/1.1" 200 50826
+2017-08-28 16:31:27 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:27 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:27 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160143.37486639_1000X1000.jpg HTTP/1.1" 200 319704
+2017-08-28 16:31:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:30 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/05/14/182812.50725154_1000X1000.jpg HTTP/1.1" 200 167105
+2017-08-28 16:31:31 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:31 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042524.89198860_1000X1000.jpg HTTP/1.1" 200 280458
+2017-08-28 16:31:32 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:32 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:32 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160501.52340013_1000X1000.jpg HTTP/1.1" 200 342153
+2017-08-28 16:31:33 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:33 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160337.11593088_1000X1000.jpg HTTP/1.1" 200 392178
+2017-08-28 16:31:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:34 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160431.68954897_1000X1000.jpg HTTP/1.1" 200 328448
+2017-08-28 16:31:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:36 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160445.30209908_1000X1000.jpg HTTP/1.1" 200 446357
+2017-08-28 16:31:38 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:38 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160356.10806738_1000X1000.jpg HTTP/1.1" 200 345365
+2017-08-28 16:31:40 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:40 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042525.80346661_1000X1000.jpg HTTP/1.1" 200 98487
+2017-08-28 16:31:40 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:40 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160216.35036816_1000X1000.jpg HTTP/1.1" 200 227368
+2017-08-28 16:31:42 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:42 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042524.65693567_1000X1000.jpg HTTP/1.1" 200 98487
+2017-08-28 16:31:43 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:43 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:43 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2010/08/11/004126.51651552_1000X1000.jpg HTTP/1.1" 200 183617
+2017-08-28 16:31:43 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:43 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:43 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160204.91002798_1000X1000.jpg HTTP/1.1" 200 193068
+2017-08-28 16:31:45 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:45 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160212.72110344_1000X1000.jpg HTTP/1.1" 200 180293
+2017-08-28 16:31:46 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:46 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160436.68446353_1000X1000.jpg HTTP/1.1" 200 383682
+2017-08-28 16:31:47 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:47 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:47 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160226.40130917_1000X1000.jpg HTTP/1.1" 200 180293
+2017-08-28 16:31:48 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:48 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160735.65028047_1000X1000.jpg HTTP/1.1" 200 349366
+2017-08-28 16:31:50 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:50 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160209.19573055_1000X1000.jpg HTTP/1.1" 200 185609
+2017-08-28 16:31:52 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:52 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042526.29294430_1000X1000.jpg HTTP/1.1" 200 258794
+2017-08-28 16:31:54 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:54 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042525.18562058_1000X1000.jpg HTTP/1.1" 200 136085
+2017-08-28 16:31:55 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:55 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160346.87998178_1000X1000.jpg HTTP/1.1" 200 104854
+2017-08-28 16:31:55 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:55 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160410.38233823_1000X1000.jpg HTTP/1.1" 200 259072
+2017-08-28 16:31:56 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:56 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160420.64710247_1000X1000.jpg HTTP/1.1" 200 276860
+2017-08-28 16:31:57 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:57 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160359.80227231_1000X1000.jpg HTTP/1.1" 200 138191
+2017-08-28 16:31:57 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:31:57 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160402.79193895_1000X1000.jpg HTTP/1.1" 200 262141
+2017-08-28 16:31:58 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:58 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042535.87587518_1000X1000.jpg HTTP/1.1" 200 187829
+2017-08-28 16:31:59 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:31:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:31:59 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042539.73117104_1000X1000.jpg HTTP/1.1" 200 301211
+2017-08-28 16:32:01 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:01 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:01 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042534.39063209_1000X1000.jpg HTTP/1.1" 200 260271
+2017-08-28 16:32:02 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:02 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:02 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042536.53559659_1000X1000.jpg HTTP/1.1" 200 236510
+2017-08-28 16:32:03 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:03 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042540.14559644_1000X1000.jpg HTTP/1.1" 200 294037
+2017-08-28 16:32:04 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:04 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:32:04 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160201.75949676_1000X1000.jpg HTTP/1.1" 200 266179
+2017-08-28 16:32:07 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:07 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042649.96800210_1000X1000.jpg HTTP/1.1" 200 161511
+2017-08-28 16:32:08 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:08 [scrapy] INFO: Crawled 1 pages (at 0 pages/min), scraped 137 items (at 42 items/min)
+2017-08-28 16:32:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:08 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042647.16065919_1000X1000.jpg HTTP/1.1" 200 390458
+2017-08-28 16:32:10 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:10 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042648.76980699_1000X1000.jpg HTTP/1.1" 200 187874
+2017-08-28 16:32:12 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:12 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042648.54960888_1000X1000.jpg HTTP/1.1" 200 135156
+2017-08-28 16:32:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042648.54534179_1000X1000.jpg HTTP/1.1" 200 162883
+2017-08-28 16:32:14 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:14 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042649.74709528_1000X1000.jpg HTTP/1.1" 200 147882
+2017-08-28 16:32:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:15 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042649.51552134_1000X1000.jpg HTTP/1.1" 200 142084
+2017-08-28 16:32:18 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:18 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:18 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042649.49515037_1000X1000.jpg HTTP/1.1" 200 104931
+2017-08-28 16:32:18 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:18 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:18 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042647.89327964_1000X1000.jpg HTTP/1.1" 200 92956
+2017-08-28 16:32:19 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:20 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:20 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042647.39518387_1000X1000.jpg HTTP/1.1" 200 88926
+2017-08-28 16:32:21 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:21 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042647.98870799_1000X1000.jpg HTTP/1.1" 200 56279
+2017-08-28 16:32:22 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:22 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:22 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042647.14045333_1000X1000.jpg HTTP/1.1" 200 75250
+2017-08-28 16:32:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:23 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042647.35988022_1000X1000.jpg HTTP/1.1" 200 126931
+2017-08-28 16:32:24 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:25 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.84731323_1000X1000.jpg HTTP/1.1" 200 84338
+2017-08-28 16:32:26 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:26 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.87864578_1000X1000.jpg HTTP/1.1" 200 85954
+2017-08-28 16:32:28 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.19646392_1000X1000.jpg HTTP/1.1" 200 71082
+2017-08-28 16:32:28 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.91198484_1000X1000.jpg HTTP/1.1" 200 84992
+2017-08-28 16:32:29 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:29 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:29 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042649.70731881_1000X1000.jpg HTTP/1.1" 200 80914
+2017-08-28 16:32:31 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:31 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.32585085_1000X1000.jpg HTTP/1.1" 200 77886
+2017-08-28 16:32:31 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:31 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.33193929_1000X1000.jpg HTTP/1.1" 200 75714
+2017-08-28 16:32:32 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:32 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:32 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.71794088_1000X1000.jpg HTTP/1.1" 200 101370
+2017-08-28 16:32:33 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:33 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.64048318_1000X1000.jpg HTTP/1.1" 200 77159
+2017-08-28 16:32:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:34 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.40137849_1000X1000.jpg HTTP/1.1" 200 89272
+2017-08-28 16:32:35 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:36 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.71517184_1000X1000.jpg HTTP/1.1" 200 78379
+2017-08-28 16:32:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:37 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.23623360_1000X1000.jpg HTTP/1.1" 200 57609
+2017-08-28 16:32:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:37 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.33244124_1000X1000.jpg HTTP/1.1" 200 72194
+2017-08-28 16:32:38 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:38 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.16758034_1000X1000.jpg HTTP/1.1" 200 72269
+2017-08-28 16:32:39 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:39 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:39 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042650.26261988_1000X1000.jpg HTTP/1.1" 200 78005
+2017-08-28 16:32:39 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:39 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:39 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.31194730_1000X1000.jpg HTTP/1.1" 200 55560
+2017-08-28 16:32:40 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:40 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.57772720_1000X1000.jpg HTTP/1.1" 200 57865
+2017-08-28 16:32:41 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:41 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:41 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.35380617_1000X1000.jpg HTTP/1.1" 200 53084
+2017-08-28 16:32:42 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:42 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.65444214_1000X1000.jpg HTTP/1.1" 200 58493
+2017-08-28 16:32:42 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:42 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.50825316_1000X1000.jpg HTTP/1.1" 200 60858
+2017-08-28 16:32:45 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:45 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042651.67354563_1000X1000.jpg HTTP/1.1" 200 63838
+2017-08-28 16:32:45 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:45 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.12444721_1000X1000.jpg HTTP/1.1" 200 115410
+2017-08-28 16:32:46 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:46 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.57258153_1000X1000.jpg HTTP/1.1" 200 65798
+2017-08-28 16:32:47 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:47 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:47 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.73028852_1000X1000.jpg HTTP/1.1" 200 85463
+2017-08-28 16:32:48 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:48 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.90079375_1000X1000.jpg HTTP/1.1" 200 54315
+2017-08-28 16:32:49 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:49 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.34479735_1000X1000.jpg HTTP/1.1" 200 90860
+2017-08-28 16:32:50 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:50 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.68918785_1000X1000.jpg HTTP/1.1" 200 104308
+2017-08-28 16:32:52 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:52 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.51152588_1000X1000.jpg HTTP/1.1" 200 93925
+2017-08-28 16:32:53 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:53 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042547.84210718_1000X1000.jpg HTTP/1.1" 200 193006
+2017-08-28 16:32:54 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:54 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.32832302_1000X1000.jpg HTTP/1.1" 200 97185
+2017-08-28 16:32:55 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:55 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042546.77299554_1000X1000.jpg HTTP/1.1" 200 234890
+2017-08-28 16:32:56 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:56 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.18921147_1000X1000.jpg HTTP/1.1" 200 51130
+2017-08-28 16:32:57 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:57 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042547.99015133_1000X1000.jpg HTTP/1.1" 200 225942
+2017-08-28 16:32:58 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:58 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.62346625_1000X1000.jpg HTTP/1.1" 200 47436
+2017-08-28 16:32:58 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:58 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.97871998_1000X1000.jpg HTTP/1.1" 200 41270
+2017-08-28 16:32:59 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:32:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:32:59 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.77957537_1000X1000.jpg HTTP/1.1" 200 52087
+2017-08-28 16:33:00 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:00 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:00 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.43495134_1000X1000.jpg HTTP/1.1" 200 49756
+2017-08-28 16:33:01 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:01 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:01 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042546.27927851_1000X1000.jpg HTTP/1.1" 200 98408
+2017-08-28 16:33:01 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:01 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:01 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.41568330_1000X1000.jpg HTTP/1.1" 200 48433
+2017-08-28 16:33:02 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:02 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:02 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.62732246_1000X1000.jpg HTTP/1.1" 200 53356
+2017-08-28 16:33:03 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:03 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042547.26596672_1000X1000.jpg HTTP/1.1" 200 251615
+2017-08-28 16:33:04 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:04 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:04 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.79889668_1000X1000.jpg HTTP/1.1" 200 51115
+2017-08-28 16:33:04 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:04 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:04 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.99245555_1000X1000.jpg HTTP/1.1" 200 50075
+2017-08-28 16:33:05 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:05 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:05 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042542.60044266_1000X1000.jpg HTTP/1.1" 200 42080
+2017-08-28 16:33:06 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:06 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.56939884_1000X1000.jpg HTTP/1.1" 200 52875
+2017-08-28 16:33:06 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:06 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.64634509_1000X1000.jpg HTTP/1.1" 200 42683
+2017-08-28 16:33:07 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:07 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042548.49770938_1000X1000.jpg HTTP/1.1" 200 118056
+2017-08-28 16:33:08 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:08 [scrapy] INFO: Crawled 1 pages (at 0 pages/min), scraped 196 items (at 59 items/min)
+2017-08-28 16:33:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:08 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.41682922_1000X1000.jpg HTTP/1.1" 200 52285
+2017-08-28 16:33:09 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:09 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:09 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.46435094_1000X1000.jpg HTTP/1.1" 200 52029
+2017-08-28 16:33:10 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:10 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.98262221_1000X1000.jpg HTTP/1.1" 200 51013
+2017-08-28 16:33:11 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:11 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.65324927_1000X1000.jpg HTTP/1.1" 200 73358
+2017-08-28 16:33:11 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:11 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.96736815_1000X1000.jpg HTTP/1.1" 200 53425
+2017-08-28 16:33:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.99802534_1000X1000.jpg HTTP/1.1" 200 68806
+2017-08-28 16:33:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042544.34207376_1000X1000.jpg HTTP/1.1" 200 70371
+2017-08-28 16:33:14 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:14 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042545.25309156_1000X1000.jpg HTTP/1.1" 200 56540
+2017-08-28 16:33:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:17 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160155.49235874_1000X1000.jpg HTTP/1.1" 200 207747
+2017-08-28 16:33:20 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:20 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:20 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042545.46597417_1000X1000.jpg HTTP/1.1" 200 56515
+2017-08-28 16:33:21 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:21 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042545.58063756_1000X1000.jpg HTTP/1.1" 200 58856
+2017-08-28 16:33:22 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:22 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:22 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.10714595_1000X1000.jpg HTTP/1.1" 200 40684
+2017-08-28 16:33:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:23 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.29494609_1000X1000.jpg HTTP/1.1" 200 41741
+2017-08-28 16:33:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:23 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160152.83643332_1000X1000.jpg HTTP/1.1" 200 170860
+2017-08-28 16:33:26 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:26 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160151.27771062_1000X1000.jpg HTTP/1.1" 200 213137
+2017-08-28 16:33:27 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:27 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042545.98081955_1000X1000.jpg HTTP/1.1" 200 57325
+2017-08-28 16:33:28 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:28 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042543.28254476_1000X1000.jpg HTTP/1.1" 200 41387
+2017-08-28 16:33:29 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:29 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:29 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042545.43452757_1000X1000.jpg HTTP/1.1" 200 58799
+2017-08-28 16:33:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:30 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160148.78966189_1000X1000.jpg HTTP/1.1" 200 235624
+2017-08-28 16:33:33 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:33 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141441.26780608_1000X1000.jpg HTTP/1.1" 200 62663
+2017-08-28 16:33:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:34 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141613.65159114_1000X1000.jpg HTTP/1.1" 200 104907
+2017-08-28 16:33:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:34 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160147.30653330_1000X1000.jpg HTTP/1.1" 200 112370
+2017-08-28 16:33:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:36 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141436.24091210_1000X1000.jpg HTTP/1.1" 200 45757
+2017-08-28 16:33:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:36 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141440.61011722_1000X1000.jpg HTTP/1.1" 200 57045
+2017-08-28 16:33:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:37 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141439.59283407_1000X1000.jpg HTTP/1.1" 200 46772
+2017-08-28 16:33:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:37 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141438.21249081_1000X1000.jpg HTTP/1.1" 200 48273
+2017-08-28 16:33:38 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:38 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141608.19623086_1000X1000.jpg HTTP/1.1" 200 105566
+2017-08-28 16:33:41 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:41 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:41 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141610.63815789_1000X1000.jpg HTTP/1.1" 200 115058
+2017-08-28 16:33:42 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:42 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141607.23840522_1000X1000.jpg HTTP/1.1" 200 76915
+2017-08-28 16:33:43 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:43 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:43 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141556.44571783_1000X1000.jpg HTTP/1.1" 200 53815
+2017-08-28 16:33:44 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:44 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141602.94916964_1000X1000.jpg HTTP/1.1" 200 56677
+2017-08-28 16:33:44 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:44 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141605.27117231_1000X1000.jpg HTTP/1.1" 200 77170
+2017-08-28 16:33:45 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:45 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141606.97654533_1000X1000.jpg HTTP/1.1" 200 84937
+2017-08-28 16:33:45 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:46 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141600.32788683_1000X1000.jpg HTTP/1.1" 200 54811
+2017-08-28 16:33:46 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:46 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141546.79213413_1000X1000.jpg HTTP/1.1" 200 57033
+2017-08-28 16:33:47 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:47 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:47 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141547.92412403_1000X1000.jpg HTTP/1.1" 200 56451
+2017-08-28 16:33:47 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:47 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:47 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141604.94785791_1000X1000.jpg HTTP/1.1" 200 57549
+2017-08-28 16:33:48 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:48 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141553.39830531_1000X1000.jpg HTTP/1.1" 200 46571
+2017-08-28 16:33:49 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:49 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141548.81595440_1000X1000.jpg HTTP/1.1" 200 61821
+2017-08-28 16:33:49 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:49 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141559.35742554_1000X1000.jpg HTTP/1.1" 200 59026
+2017-08-28 16:33:50 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:50 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141555.55211524_1000X1000.jpg HTTP/1.1" 200 47716
+2017-08-28 16:33:50 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:50 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141603.22806555_1000X1000.jpg HTTP/1.1" 200 62720
+2017-08-28 16:33:51 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:51 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141550.32963138_1000X1000.jpg HTTP/1.1" 200 57294
+2017-08-28 16:33:52 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:52 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/18/141555.88145268_1000X1000.jpg HTTP/1.1" 200 51111
+2017-08-28 16:33:52 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:52 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042652.37373683_1000X1000.jpg HTTP/1.1" 200 168526
+2017-08-28 16:33:53 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:53 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042653.22814793_1000X1000.jpg HTTP/1.1" 200 297246
+2017-08-28 16:33:53 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:53 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042655.89320889_1000X1000.jpg HTTP/1.1" 200 166517
+2017-08-28 16:33:54 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:54 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042654.22786493_1000X1000.jpg HTTP/1.1" 200 267489
+2017-08-28 16:33:55 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:55 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160146.80592017_1000X1000.jpg HTTP/1.1" 200 67905
+2017-08-28 16:33:55 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:55 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160158.66726843_1000X1000.jpg HTTP/1.1" 200 86671
+2017-08-28 16:33:56 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:33:56 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/04/16/093523.89072066_1000X1000.jpg HTTP/1.1" 200 50977
+2017-08-28 16:33:57 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:57 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2012/11/07/133040.43221569_1000X1000.jpg HTTP/1.1" 200 154573
+2017-08-28 16:33:57 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:57 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225829.79217885_1000X1000.jpg HTTP/1.1" 200 234233
+2017-08-28 16:33:58 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:58 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225937.41213989_1000X1000.jpg HTTP/1.1" 200 345965
+2017-08-28 16:33:59 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:59 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225833.69806904_1000X1000.jpg HTTP/1.1" 200 320766
+2017-08-28 16:33:59 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:33:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:33:59 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225945.62376901_1000X1000.jpg HTTP/1.1" 200 310057
+2017-08-28 16:34:00 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:00 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:00 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225940.25730414_1000X1000.jpg HTTP/1.1" 200 278000
+2017-08-28 16:34:02 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:02 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:02 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225831.15077185_1000X1000.jpg HTTP/1.1" 200 269408
+2017-08-28 16:34:03 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:03 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225825.94030915_1000X1000.jpg HTTP/1.1" 200 212344
+2017-08-28 16:34:05 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:05 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:05 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225939.18912465_1000X1000.jpg HTTP/1.1" 200 286131
+2017-08-28 16:34:06 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:06 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225943.50338061_1000X1000.jpg HTTP/1.1" 200 286520
+2017-08-28 16:34:07 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:07 [scrapy] INFO: Crawled 1 pages (at 0 pages/min), scraped 257 items (at 61 items/min)
+2017-08-28 16:34:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:07 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225914.57844174_1000X1000.jpg HTTP/1.1" 200 232960
+2017-08-28 16:34:08 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:08 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225946.39549809_1000X1000.jpg HTTP/1.1" 200 318139
+2017-08-28 16:34:09 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:09 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:09 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225902.70114975_1000X1000.jpg HTTP/1.1" 200 326991
+2017-08-28 16:34:10 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:10 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225832.31725193_1000X1000.jpg HTTP/1.1" 200 317245
+2017-08-28 16:34:11 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:11 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225905.51454946_1000X1000.jpg HTTP/1.1" 200 326991
+2017-08-28 16:34:12 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:12 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225911.96566470_1000X1000.jpg HTTP/1.1" 200 326744
+2017-08-28 16:34:12 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:12 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225827.73946833_1000X1000.jpg HTTP/1.1" 200 241483
+2017-08-28 16:34:13 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:13 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225942.26678045_1000X1000.jpg HTTP/1.1" 200 297266
+2017-08-28 16:34:14 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:14 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/u/2016/01/08/225913.17709940_1000X1000.jpg HTTP/1.1" 200 238821
+2017-08-28 16:34:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:15 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042541.32982443_1000X1000.jpg HTTP/1.1" 200 102317
+2017-08-28 16:34:15 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:15 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042541.33451726_1000X1000.jpg HTTP/1.1" 200 97459
+2017-08-28 16:34:16 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:16 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:16 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160146.76748350_1000X1000.jpg HTTP/1.1" 200 70992
+2017-08-28 16:34:16 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:16 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:16 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160158.39216813_1000X1000.jpg HTTP/1.1" 200 70204
+2017-08-28 16:34:17 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:23 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/07/13/160157.47846350_1000X1000.jpg HTTP/1.1" 200 76241
+2017-08-28 16:34:23 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:28 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/05/04/105805.43430700_1000X1000.jpg HTTP/1.1" 200 60837
+2017-08-28 16:34:29 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:29 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:29 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/05/04/111628.43025708_1000X1000.jpg HTTP/1.1" 200 56346
+2017-08-28 16:34:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:30 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2012/05/04/110103.68006815_1000X1000.jpg HTTP/1.1" 200 57740
+2017-08-28 16:34:30 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:32 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2014/02/28/042541.96061699_1000X1000.jpg HTTP/1.1" 200 79698
+2017-08-28 16:34:33 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:33 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/06/30/161752.81185004_1000X1000.jpg HTTP/1.1" 200 21648
+2017-08-28 16:34:33 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:33 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/06/30/161751.92213325_1000X1000.jpg HTTP/1.1" 200 110525
+2017-08-28 16:34:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:34 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/06/30/161751.37587152_1000X1000.jpg HTTP/1.1" 200 21597
+2017-08-28 16:34:34 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:34 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/06/30/161750.46088729_1000X1000.jpg HTTP/1.1" 200 73279
+2017-08-28 16:34:35 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:35 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/06/30/161748.46952207_1000X1000.jpg HTTP/1.1" 200 249004
+2017-08-28 16:34:35 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:36 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/12/12/170208.52497240_1000X1000.jpg HTTP/1.1" 200 59971
+2017-08-28 16:34:36 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img21.mtime.cn
+2017-08-28 16:34:36 [urllib3.connectionpool] DEBUG: http://img21.mtime.cn:80 "GET /pi/2011/12/12/170208.24146084_1000X1000.jpg HTTP/1.1" 200 58100
+2017-08-28 16:34:37 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): img31.mtime.cn
+2017-08-28 16:34:37 [urllib3.connectionpool] DEBUG: http://img31.mtime.cn:80 "GET /pi/2013/01/15/163845.87188937_1000X1000.jpg HTTP/1.1" 200 242189
+2017-08-28 16:34:38 [scrapy] DEBUG: Scraped from <200 http://movie.mtime.com/79055/posters_and_images/posters/hot.html>
+None
+2017-08-28 16:34:38 [scrapy] INFO: Closing spider (finished)
+2017-08-28 16:34:38 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 254,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 160533,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 8, 28, 8, 34, 38, 570410),
+ 'item_scraped_count': 283,
+ 'log_count/DEBUG': 851,
+ 'log_count/INFO': 12,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 8, 28, 8, 29, 7, 837666)}
+2017-08-28 16:34:38 [scrapy] INFO: Spider closed (finished)
