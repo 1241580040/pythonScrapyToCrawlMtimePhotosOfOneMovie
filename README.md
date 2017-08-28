@@ -9,7 +9,7 @@ Environment:
 
 ===================================================================
 
-Describtion:
+Description:
 This spider project only crawl：http://movie.mtime.com/79055/posters_and_images/posters/hot.html <飞屋环游记 UP> photos, total 283 photos（剧照，工作照，宣传照等）
 
 ===================================================================
