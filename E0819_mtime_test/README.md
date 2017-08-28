@@ -10,8 +10,12 @@ Environment:
 
 ===================================================================
 
+<<<<<<< HEAD
 Describtion:
 
+=======
+Description:
+>>>>>>> a7d55916d670f1aeb60f80149aee720a56acffa2
 This spider project only crawl：http://movie.mtime.com/79055/posters_and_images/posters/hot.html <飞屋环游记 UP> photos, total 283 photos（剧照，工作照，宣传照等）
 
 ===================================================================
@@ -40,3 +44,5 @@ exec process:
 
 1. cd ../E0819_mtime_test/S0819Mtime_tiantang
 2. scrapy crawl mtime
+
+===================================================================
